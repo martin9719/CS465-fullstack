@@ -9,5 +9,7 @@
       person
     </p>
     <p class="card-text" [innerHTML]="trip.description"> </p>
+    <div (click)="editTrip(trip)" class="btn btn-info">Edit</div>
+    <div (click)="deleteTrip(trip)" class="btn btn-info" style="margin-left: 10px;">Delete</div>
   </div>
 </div>
